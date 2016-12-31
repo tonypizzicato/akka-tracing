@@ -1,0 +1,22 @@
+*.orig
+*.class
+*.log
+
+# Local specific
+.env.local
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+/out
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+
+# IntelliJ specific
+.idea
